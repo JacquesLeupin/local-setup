@@ -2,7 +2,7 @@
 
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null && pwd )"
 
-#install homewbrew
+#install homebrew
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 # Oh My Zsh
 # https://github.com/robbyrussell/oh-my-zsh#via-curl
@@ -25,7 +25,7 @@ git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-m
 
 # my vimrc
 cd
-git clone https://github.com/stungkit/vimrc.git
+git clone https://github.com/JacquesLeupin/vimrc
 cd vimrc
 ./setup.sh
 
